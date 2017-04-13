@@ -1,7 +1,5 @@
 package Tools;
 
-import math.Digit;
-
 import java.math.BigInteger;
 import java.security.SecureRandom;
 
@@ -17,7 +15,7 @@ public class CryptoSecureRandom {
     }
 
     /**
-     * @return a big integer within the specified range (start <= randomNum < stop)
+     * @return a BigInteger within the specified range (start <= randomNum < stop)
      */
     public BigInteger nextBigInteger(BigInteger start, BigInteger stop) {
         BigInteger randomNum;
@@ -27,11 +25,12 @@ public class CryptoSecureRandom {
         return randomNum;
     }
 
+    /*
     public BigInteger nextPrimeCandidate(int bitLength) {
         BigInteger p = new BigInteger(bitLength, randomEngine);
-        if (p.and(Digit.ONE).equals(Digit.ZERO)) {
-            p = p.add(Digit.ONE);
+        if (p.and(BigInteger.ONE).equals(BigInteger.ZERO)) {
+            p = p.add(BigInteger.ONE);
         }
         return p;
-    }
+    }*/
 }
