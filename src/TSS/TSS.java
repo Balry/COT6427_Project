@@ -19,7 +19,6 @@ public class TSS {
         for (int i = 1; i <= nPlayers; i++)
             players.add(new Player(i));
 
-        Dealer d = new Dealer(nPlayers, threshold, new BigInteger(128,50, new SecureRandom())), players;
-
+        Dealer d = new Dealer(threshold, players, new BigInteger(128,50, new SecureRandom()));
     }
 }

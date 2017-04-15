@@ -3,28 +3,30 @@ package Tools;
 import java.math.BigInteger;
 import java.security.SecureRandom;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 import math.Polynomial;
+
+import javax.swing.text.html.HTMLDocument;
 
 /**
  * Created by "Balry" - Michael Perez on 3/19/2017.
  */
 public class Dealer {
-    public BigInteger primeQ;
-    private ArrayList<BigInteger> shares = new ArrayList<BigInteger>();
+    public BigInteger primeQ, secret;
+    private ArrayList<BigInteger> shares = new ArrayList<BigInteger>();;
     private ArrayList<Player> players = new ArrayList<Player>();
     private Polynomial poly;
-    private int numPlayers, threshold;
+    private int threshold;
 
     /**
-     * @precondition n >= t
-     * @param p upper bound prime number
-     * @param n number of players
-     * @param t security threshold
+     * @precondition    n >= t
+     * @param t     security threshold
+     * @param pl    List of players
+     * @param p     upper bound prime number
      */
-    public Dealer(int n, int t, BigInteger p, ArrayList<Player> pl){
+    public Dealer(int t, ArrayList<Player> pl, BigInteger p){
         primeQ = p;
-        numPlayers = n;
         threshold = t;
         players = pl;
         this.generatePoly();
@@ -36,8 +38,10 @@ public class Dealer {
     }
 
     private void generateShares(){
-        for(int i = 0; i <= numPlayers; i++)
-            shares.add(i, poly.evaluate(BigInteger.valueOf(i)));
+        secret = poly.evaluate(BigInteger.ZERO); //
+        shares.add(BigInteger.ZERO); //Do not want the list of shares to have the secret
+        for(Player i : players)
+            shares.add(i.getId(), poly.evaluate(BigInteger.valueOf(i.getId())));
     }
 
     /*public void distributeShares(ArrayList<Player> players){
@@ -45,16 +49,22 @@ public class Dealer {
             System.out.println(d.shares.get(i) + " ");
     }*/
 
+    // Testing Poly
     public static void main(String[] args) {
-        BigInteger bigIntRand = new BigInteger(128,50, new SecureRandom());
-        BigInteger bigInt = new BigInteger("5");
+        int numP=10;
+        int t = 5;
+        ArrayList<Player> players = new ArrayList<Player>();
+        for (int i = 1; i<=numP; i++)
+            players.add(new Player(i));
 
-        Dealer randD = new Dealer(10, 5, bigIntRand);
-        Dealer d = new Dealer(10, 5, bigInt);
-
+        BigInteger bigInt = new BigInteger("13");
+        Dealer d = new Dealer(t, players, bigInt);
         for (int i = 0; i < d.shares.size(); i++)
             System.out.println(d.shares.get(i) + " ");
 
-        //d.distributeShares();
+        BigInteger bigIntRand = new BigInteger(128,50, new SecureRandom());
+        Dealer randD = new Dealer(t, players, bigIntRand);
+        for (int i = 0; i < randD.shares.size(); i++)
+            System.out.println(randD.shares.get(i) + " ");
     }
 }
