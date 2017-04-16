@@ -7,8 +7,8 @@ public class Pair<T1, T2> {
     public T1 x;
     public T2 y;
 
-    public Pair(T1 first, T2 second) {
-        this.x = first;
-        this.y = second;
+    public Pair(T1 id, T2 share) {
+        this.x = id;
+        this.y = share;
     }
 }

@@ -24,13 +24,4 @@ public class CryptoSecureRandom {
         } while (randomNum.compareTo(start) == -1 || randomNum.compareTo(stop.subtract(BigInteger.ONE)) == 1);
         return randomNum;
     }
-
-    /*
-    public BigInteger nextPrimeCandidate(int bitLength) {
-        BigInteger p = new BigInteger(bitLength, randomEngine);
-        if (p.and(BigInteger.ONE).equals(BigInteger.ZERO)) {
-            p = p.add(BigInteger.ONE);
-        }
-        return p;
-    }*/
 }
