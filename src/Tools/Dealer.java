@@ -1,13 +1,9 @@
 package Tools;
 
-import java.math.BigInteger;
-import java.security.SecureRandom;
-import java.util.ArrayList;
-import java.util.Iterator;
-
 import math.Polynomial;
 
-import javax.swing.text.html.HTMLDocument;
+import java.math.BigInteger;
+import java.util.ArrayList;
 
 /**
  * Created by "Balry" - Michael Perez on 3/19/2017.
@@ -55,11 +51,11 @@ public class Dealer {
 
     // Testing Dealer Class
     public static void main(String[] args) {
-        int numP=10;
+/*        int numP=10;
         int t = 5;
         ArrayList<Player> players = new ArrayList<Player>();
         for (int i = 1; i<=numP; i++)
-            players.add(new Player(i,t));
+            players.add(new Player(i,t, 13));
 
         BigInteger bigInt = new BigInteger("13");
         Dealer d = new Dealer(t, players, bigInt);
@@ -69,6 +65,6 @@ public class Dealer {
         BigInteger bigIntRand = new BigInteger(128,50, new SecureRandom());
         Dealer randD = new Dealer(t, players, bigIntRand);
         for (int i = 0; i < randD.shares.size(); i++)
-            System.out.println("P" + d.shares.get(i).x + " has share = " + d.shares.get(i).y);
+            System.out.println("P" + d.shares.get(i).x + " has share = " + d.shares.get(i).y);*/
     }
 }
