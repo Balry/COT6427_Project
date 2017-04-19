@@ -1,6 +1,6 @@
 package math;
 
-import Tools.CryptoSecureRandom;
+import tools.CryptoSecureRandom;
 
 import java.math.BigInteger;
 import java.security.SecureRandom;

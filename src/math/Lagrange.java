@@ -1,7 +1,8 @@
 package math;
 
-import Tools.Pair;
+import tools.Pair;
 
+import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.ArrayList;
 
@@ -17,23 +18,33 @@ public class Lagrange {
 
     public BigInteger interpolate(ArrayList<Pair<Integer, BigInteger>> shares){
         int n = shares.size();
-        BigInteger numerator, denominator;
+        BigDecimal numerator, denominator;
         BigInteger secret = BigInteger.ZERO;
 
         for(int count = 0; count<n; count++) {
             //Initialisation of variable
 
-            numerator = BigInteger.ONE;//BigInteger.valueOf(shares.get(count).x);
-            denominator = BigInteger.ONE;
+            numerator = BigDecimal.ONE;//BigInteger.valueOf(shares.get(count).x);
+            denominator = BigDecimal.ONE;
 
             for (int count2 = 0; count2 < n; count2++) {
                 // /if (count2 != count) {
                 if(shares.get(count2).x != shares.get(count).x){
-                    numerator = numerator.multiply(BigInteger.ZERO.subtract(BigInteger.valueOf(shares.get(count2).x)));
-                    denominator = denominator.multiply(BigInteger.valueOf(shares.get(count).x).subtract(BigInteger.valueOf(shares.get(count2).x)));
+                    numerator = numerator.multiply(new BigDecimal(BigInteger.ZERO.subtract(BigInteger.valueOf(shares.get(count2).x))));
+                    denominator = denominator.multiply(new BigDecimal(BigInteger.valueOf(shares.get(count).x).subtract(BigInteger.valueOf(shares.get(count2).x))));
                 }
             }
-            secret = secret.add(numerator.divide(denominator).multiply(shares.get(count).y)).mod(prime);
+            BigDecimal rem = numerator.remainder(denominator);
+            if(rem == BigDecimal.ZERO){
+                secret = secret.add(numerator.toBigInteger().divide(denominator.toBigInteger()).multiply(shares.get(count).y)).mod(prime);
+            }
+            else {
+                BigInteger inverse = denominator.toBigInteger().modInverse(prime);
+                BigInteger div = numerator.toBigInteger().multiply(inverse);
+                secret = secret.add(div.multiply(shares.get(count).y)).mod(prime);
+                //BigDecimal div = numerator.divide(denominator, 10, RoundingMode.HALF_UP);
+                //secret = secret.add(div.toBigInteger().multiply(shares.get(count).y)).mod(prime);
+            }
         }
         return secret;
     }
