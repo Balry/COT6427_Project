@@ -13,8 +13,8 @@ import java.util.ArrayList;
  */
 public class TSS {
     public static void main (String[] args) {
-        int nPlayers = 50;
-        int threshold = 5;
+        int nPlayers = 200;
+        int threshold = 150;
         //BigInteger prime = new BigInteger("11");
         BigInteger prime = new BigInteger(256,50, new SecureRandom());
 
@@ -44,7 +44,7 @@ public class TSS {
         players.get(34).sendMyShare(players.get(2));
 
 
-        //Player 2 tries to recover the secret
+        //Player 2 attempts to recover the secret
         players.get(2).recoverSecret();
 
 

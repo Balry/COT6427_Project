@@ -1,4 +1,4 @@
-package Tools;
+package tools;
 
 import java.math.BigInteger;
 import java.security.SecureRandom;
@@ -15,11 +15,12 @@ public class CryptoSecureRandom {
     }
 
     /**
-     * @return a BigInteger within the specified range (start <= randomNum < stop)
+     * @return a BigInteger within the specified range (exclusive) (start <= randomNum < stop)
      */
     public BigInteger nextBigInteger(BigInteger start, BigInteger stop) {
         BigInteger randomNum;
         do {
+            //randomNum = new BigInteger(stop.bitCount(),randomEngine);
             randomNum = new BigInteger(stop.bitLength(), randomEngine);
         } while (randomNum.compareTo(start) == -1 || randomNum.compareTo(stop.subtract(BigInteger.ONE)) == 1);
         return randomNum;

@@ -1,4 +1,4 @@
-package Tools;
+package tools;
 
 /**
  * Created by "Balry" - Michael Perez on 4/15/2017.
