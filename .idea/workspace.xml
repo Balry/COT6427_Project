@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50e14ae5-5345-4919-bd28-530d356047f5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/COT6427_Project/Tools/Player.class" afterPath="$PROJECT_DIR$/out/production/COT6427_Project/Tools/Player.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/COT6427_Project/TSS/TSS.class" afterPath="$PROJECT_DIR$/out/production/COT6427_Project/TSS/TSS.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TSS/TSS.java" afterPath="$PROJECT_DIR$/src/TSS/TSS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tools/CryptoSecureRandom.java" afterPath="$PROJECT_DIR$/src/Tools/CryptoSecureRandom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tools/Dealer.java" afterPath="$PROJECT_DIR$/src/Tools/Dealer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tools/Pair.java" afterPath="$PROJECT_DIR$/src/Tools/Pair.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tools/Player.java" afterPath="$PROJECT_DIR$/src/Tools/Player.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +51,7 @@
                 <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
                 <element signature="e#842#843#0" expanded="true" />
                 <element signature="e#898#899#0" expanded="true" />
-                <marker date="1492528511188" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
+                <marker date="1492654051614" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
               </folding>
             </state>
           </provider>
@@ -64,10 +60,11 @@
       <file leaf-file-name="TSS.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TSS/TSS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="778">
+              <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#556#564#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,11 +73,17 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tools/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="391">
               <caret line="47" column="107" lean-forward="false" selection-start-line="47" selection-start-column="107" selection-end-line="47" selection-end-column="107" />
               <folding>
-                <element signature="method#Player#0;class#Player#0" expanded="false" />
-                <element signature="method#setMyShare#0;class#Player#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#358#385#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,7 +92,7 @@
       <file leaf-file-name="Polynomial.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/math/Polynomial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
+            <state relative-caret-position="21">
               <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#Polynomial#0" expanded="false" />
@@ -178,8 +181,8 @@
         <option value="$PROJECT_DIR$/src/GUI/TSS.form" />
         <option value="$PROJECT_DIR$/src/math/Lagrange.java" />
         <option value="$PROJECT_DIR$/src/tools/Player.java" />
-        <option value="$PROJECT_DIR$/src/TSS/TSS.java" />
         <option value="$PROJECT_DIR$/src/tools/CryptoSecureRandom.java" />
+        <option value="$PROJECT_DIR$/src/TSS/TSS.java" />
       </list>
     </option>
   </component>
@@ -820,15 +823,15 @@
       <option name="presentableId" value="Default" />
       <updated>1489978932122</updated>
       <workItem from="1492559702473" duration="10627000" />
-      <workItem from="1492647936864" duration="2514000" />
+      <workItem from="1492647936864" duration="2968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13141000" />
+    <option name="totallyTimeSpent" value="13595000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -853,7 +856,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37012264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37012264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -871,12 +874,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="96" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TSS/TSS.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="97" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="stop.bitCount()" language="JAVA" />
-        <watch expression="stop.bitLength()" language="JAVA" />
+        <watch expression="players.get(2).secret" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -913,7 +923,7 @@
             <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
             <element signature="e#842#843#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
-            <marker date="1492528511188" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
+            <marker date="1492654051614" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -924,6 +934,7 @@
           <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#556#564#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -933,8 +944,14 @@
         <state relative-caret-position="374">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="method#Player#0;class#Player#0" expanded="false" />
-            <element signature="method#setMyShare#0;class#Player#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#358#385#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -975,7 +992,7 @@
             <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
             <element signature="e#842#843#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
-            <marker date="1492528511188" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
+            <marker date="1492654051614" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -986,6 +1003,7 @@
           <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#556#564#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -995,8 +1013,14 @@
         <state relative-caret-position="374">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="method#Player#0;class#Player#0" expanded="false" />
-            <element signature="method#setMyShare#0;class#Player#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#358#385#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1034,8 +1058,14 @@
         <state relative-caret-position="221">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="method#Player#0;class#Player#0" expanded="false" />
-            <element signature="method#setMyShare#0;class#Player#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#358#385#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1046,6 +1076,7 @@
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#556#564#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1059,7 +1090,7 @@
             <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
             <element signature="e#842#843#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
-            <marker date="1492528511188" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
+            <marker date="1492654051614" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1094,6 +1125,7 @@
           <caret line="11" column="55" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="11" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#556#564#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1107,7 +1139,7 @@
             <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
             <element signature="e#842#843#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
-            <marker date="1492528511188" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
+            <marker date="1492654051614" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1124,7 +1156,7 @@
             <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
             <element signature="e#842#843#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
-            <marker date="1492528511188" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
+            <marker date="1492654051614" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1141,7 +1173,7 @@
             <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
             <element signature="e#842#843#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
-            <marker date="1492528511188" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
+            <marker date="1492654051614" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1221,17 +1253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tools/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="47" column="107" lean-forward="false" selection-start-line="47" selection-start-column="107" selection-end-line="47" selection-end-column="107" />
-          <folding>
-            <element signature="method#Player#0;class#Player#0" expanded="false" />
-            <element signature="method#setMyShare#0;class#Player#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/math/Lagrange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1249,18 +1270,7 @@
             <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
             <element signature="e#842#843#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
-            <marker date="1492528511188" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/math/Polynomial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Polynomial#0" expanded="false" />
-            <element signature="method#main#0;class#Polynomial#0" expanded="false" />
+            <marker date="1492654051614" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1273,12 +1283,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TSS/TSS.java">
+    <entry file="file://$PROJECT_DIR$/src/math/Polynomial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="21">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#Polynomial#0" expanded="false" />
+            <element signature="method#main#0;class#Polynomial#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tools/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="47" column="107" lean-forward="false" selection-start-line="47" selection-start-column="107" selection-end-line="47" selection-end-column="107" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#358#385#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TSS/TSS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#556#564#0" expanded="true" />
           </folding>
         </state>
       </provider>

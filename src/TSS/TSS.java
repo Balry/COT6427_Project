@@ -33,6 +33,7 @@ public class TSS {
             i.setMyShare(d.distributeShare(i));
 
         //Players 1, 2, and 4, send shares to player 3
+        /*
         players.get(0).sendMyShare(players.get(2));
         players.get(1).sendMyShare(players.get(2));
         players.get(23).sendMyShare(players.get(2));
@@ -42,7 +43,11 @@ public class TSS {
         players.get(7).sendMyShare(players.get(2));
         players.get(40).sendMyShare(players.get(2));
         players.get(34).sendMyShare(players.get(2));
+         */
 
+        for(int i = 3; i <=threshold+5; i++){
+            players.get(i).sendMyShare(players.get(2));
+        }
 
         //Player 2 attempts to recover the secret
         players.get(2).recoverSecret();
