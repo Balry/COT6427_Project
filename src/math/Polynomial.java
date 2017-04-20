@@ -27,6 +27,16 @@ public class Polynomial {
             coef.add(randomEngine.nextBigInteger(BigInteger.ZERO, qPrime));
     }
 
+    public void showPoly(){
+        if (this.coef.size()>0) {
+            System.out.print("Dealer Polynomial: " + this.coef.get(0));
+            for (int i = 1; i < this.coef.size(); i++) {
+                System.out.print(" + " + this.coef.get(i) + "x^" + i);
+            }
+            System.out.println("\n");
+        }
+    }
+
     // Uses Horner's method to compute and return the polynomial evaluated at x
     public BigInteger evaluate(BigInteger x){
         BigInteger result = BigInteger.ZERO;

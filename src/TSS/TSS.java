@@ -4,7 +4,6 @@ import tools.Dealer;
 import tools.Player;
 
 import java.math.BigInteger;
-import java.security.SecureRandom;
 import java.util.ArrayList;
 
 
@@ -13,10 +12,13 @@ import java.util.ArrayList;
  */
 public class TSS {
     public static void main (String[] args) {
-        int nPlayers = 200;
-        int threshold = 150;
-        //BigInteger prime = new BigInteger("11");
-        BigInteger prime = new BigInteger(256,50, new SecureRandom());
+        int nPlayers = 15;
+        int threshold = 5;   // >500 takes too long for prezi
+        //BigInteger prime = new BigInteger("13");
+        BigInteger prime = new BigInteger("31");
+        //BigInteger prime = new BigInteger("229");
+        //BigInteger prime = new BigInteger("349");
+        //BigInteger prime = new BigInteger(128,50, new SecureRandom());
 
         //Creates players and gives them id number
         ArrayList<Player> players = new ArrayList<Player>();
@@ -25,6 +27,7 @@ public class TSS {
 
         //Create Dealer and print out each player's shares
         Dealer d = new Dealer(threshold, players, prime);
+        d.poly.showPoly();
         for (int i = 0; i < d.shares.size(); i++)
             System.out.println("P" + d.shares.get(i).x + " has share = " + d.shares.get(i).y);
 
@@ -45,7 +48,7 @@ public class TSS {
         players.get(34).sendMyShare(players.get(2));
          */
 
-        for(int i = 3; i <=threshold+5; i++){
+        for(int i = 3; i <=threshold+1; i++){
             players.get(i).sendMyShare(players.get(2));
         }
 

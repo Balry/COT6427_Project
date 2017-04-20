@@ -12,8 +12,8 @@ public class Dealer {
     public BigInteger primeQ;
     public int threshold;
     public BigInteger secret; //TODO remove this after testing!
-    private Polynomial poly;
-    public ArrayList<Pair<Integer, BigInteger>> shares = new ArrayList<Pair<Integer, BigInteger>>();//TODO CHANGE TO PRIVATE AFTER TESTING
+    public Polynomial poly;
+    public ArrayList<Share<Integer, BigInteger>> shares = new ArrayList<Share<Integer, BigInteger>>();//TODO CHANGE TO PRIVATE AFTER TESTING
 
     /**
      * @precondition    n >= t
@@ -35,7 +35,7 @@ public class Dealer {
     private void generateShares(ArrayList<Player> players){
         secret = poly.evaluate(BigInteger.ZERO); //TODO Saving just to be able to check later
         for(Player i : players)
-            shares.add(new Pair<>(i.getId(), poly.evaluate(BigInteger.valueOf(i.getId()))));
+            shares.add(new Share<>(i.getId(), poly.evaluate(BigInteger.valueOf(i.getId()))));
     }
 
     public BigInteger distributeShare(Player player){

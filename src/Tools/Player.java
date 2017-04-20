@@ -12,7 +12,7 @@ public class Player {
     private int id, threshold;
     private BigInteger myShare, prime;
     public BigInteger secret;
-    private ArrayList<Pair<Integer, BigInteger>> gatheredShares = new ArrayList<Pair<Integer, BigInteger>>();
+    private ArrayList<Share<Integer, BigInteger>> gatheredShares = new ArrayList<Share<Integer, BigInteger>>();
 
     public Player(int i, int t, BigInteger p){
         id = i;
@@ -26,14 +26,14 @@ public class Player {
 
     public void setMyShare(BigInteger share) {
         myShare = share;
-        gatheredShares.add(new Pair<>(id, myShare));
+        gatheredShares.add(new Share<>(id, myShare));
     }
 
     public void sendMyShare(Player otherPlayer){
-        otherPlayer.getOtherShares(new Pair<>(id, myShare));
+        otherPlayer.getOtherShares(new Share<>(id, myShare));
     }
 
-    private void getOtherShares(Pair<Integer, BigInteger> s){
+    private void getOtherShares(Share<Integer, BigInteger> s){
         gatheredShares.add(s);
     }
 

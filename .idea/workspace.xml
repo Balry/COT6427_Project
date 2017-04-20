@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50e14ae5-5345-4919-bd28-530d356047f5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tools/Share.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/COT6427_Project/Tools/Pair.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Tools/Pair.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/COT6427_Project/TSS/TSS.class" afterPath="$PROJECT_DIR$/out/production/COT6427_Project/TSS/TSS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/COT6427_Project/Tools/Dealer.class" afterPath="$PROJECT_DIR$/out/production/COT6427_Project/Tools/Dealer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/COT6427_Project/Tools/Player.class" afterPath="$PROJECT_DIR$/out/production/COT6427_Project/Tools/Player.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/COT6427_Project/math/Lagrange.class" afterPath="$PROJECT_DIR$/out/production/COT6427_Project/math/Lagrange.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/COT6427_Project/math/Polynomial.class" afterPath="$PROJECT_DIR$/out/production/COT6427_Project/math/Polynomial.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TSS/TSS.java" afterPath="$PROJECT_DIR$/src/TSS/TSS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tools/Dealer.java" afterPath="$PROJECT_DIR$/src/Tools/Dealer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tools/Player.java" afterPath="$PROJECT_DIR$/src/Tools/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/math/Lagrange.java" afterPath="$PROJECT_DIR$/src/math/Lagrange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/math/Polynomial.java" afterPath="$PROJECT_DIR$/src/math/Polynomial.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,22 +32,37 @@
     <SUITE FILE_PATH="coverage/COT6427_Project$Lagrange.coverage" NAME="Lagrange Coverage Results" MODIFIED="1492042972227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>math.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/COT6427_Project$TSS.coverage" NAME="TSS Coverage Results" MODIFIED="1492569172341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/COT6427_Project$TSS.coverage" NAME="TSS Coverage Results" MODIFIED="1492665431569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tools.*</FILTER>
     </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="COT6427_Project" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lagrange.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/math/Lagrange.java">
+      <file leaf-file-name="TSS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TSS/TSS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="523">
+              <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#708#716#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,27 +70,12 @@
       <file leaf-file-name="Dealer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tools/Dealer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="docComment;class#Dealer#0" expanded="false" />
                 <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-                <marker date="1492654051614" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TSS.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TSS/TSS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
-              <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#556#564#0" expanded="true" />
+                <marker date="1492671959141" expanded="false" signature="1699:1707" ph="&lt;~&gt;" />
               </folding>
             </state>
           </provider>
@@ -73,17 +84,10 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tools/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="47" column="107" lean-forward="false" selection-start-line="47" selection-start-column="107" selection-end-line="47" selection-end-column="107" />
+            <state relative-caret-position="557">
+              <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#358#385#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,8 +96,8 @@
       <file leaf-file-name="Polynomial.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/math/Polynomial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
               <folding>
                 <element signature="docComment;class#Polynomial#0" expanded="false" />
                 <element signature="method#main#0;class#Polynomial#0" expanded="false" />
@@ -112,36 +116,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement />
-              <nodes>
-                <node x="394.38324175824175" y="403.5">tools.Dealer</node>
-                <node x="287.39285714285717" y="716.0">TSS.TSS</node>
-                <node x="211.88324175824178" y="0.5">tools.Pair</node>
-                <node x="490.29725274725274" y="157.0">math.Polynomial</node>
-                <node x="0.0" y="190.0">math.Lagrange</node>
-                <node x="38.38324175824175" y="392.0">tools.Player</node>
-                <node x="520.7972527472527" y="0.0">tools.CryptoSecureRandom</node>
-              </nodes>
-              <notes />
-              <edges />
-              <settings layout="Hierarchic Group" zoom="1.0" x="398.0" y="367.0" />
-              <SelectedNodes>
-                <node>tools.Dealer</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Inner Classes</Category>
-                <Category>Constructors</Category>
-                <Category>Properties</Category>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+      <file leaf-file-name="Lagrange.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/math/Lagrange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,7 +153,6 @@
         <option value="$PROJECT_DIR$/src/math/Digit.java" />
         <option value="$PROJECT_DIR$/src/math/CryptoSecureRandom.java" />
         <option value="$PROJECT_DIR$/src/TSS/Dealer.java" />
-        <option value="$PROJECT_DIR$/src/math/Polynomial.java" />
         <option value="$PROJECT_DIR$/src/Tools/Pair.java" />
         <option value="$PROJECT_DIR$/src/Tools/CryptoSecureRandom.java" />
         <option value="$PROJECT_DIR$/src/Tools/Dealer.java" />
@@ -182,6 +161,8 @@
         <option value="$PROJECT_DIR$/src/math/Lagrange.java" />
         <option value="$PROJECT_DIR$/src/tools/Player.java" />
         <option value="$PROJECT_DIR$/src/tools/CryptoSecureRandom.java" />
+        <option value="$PROJECT_DIR$/src/tools/Dealer.java" />
+        <option value="$PROJECT_DIR$/src/math/Polynomial.java" />
         <option value="$PROJECT_DIR$/src/TSS/TSS.java" />
       </list>
     </option>
@@ -216,9 +197,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -304,10 +285,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -824,46 +806,57 @@
       <updated>1489978932122</updated>
       <workItem from="1492559702473" duration="10627000" />
       <workItem from="1492647936864" duration="2968000" />
+      <workItem from="1492654546151" duration="132000" />
+      <workItem from="1492661097107" duration="5855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13595000" />
+    <option name="totallyTimeSpent" value="19582000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44593087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15245202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37012264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50501674" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10021322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37012264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -877,12 +870,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/TSS/TSS.java</url>
-          <line>57</line>
+          <line>60</line>
           <properties />
           <option name="timeStamp" value="96" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TSS/TSS.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="97" />
+      <option name="time" value="101" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -921,9 +920,7 @@
           <folding>
             <element signature="docComment;class#Dealer#0" expanded="false" />
             <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <marker date="1492654051614" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
+            <marker date="1492671959141" expanded="false" signature="1699:1707" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -934,7 +931,7 @@
           <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#556#564#0" expanded="true" />
+            <element signature="e#708#716#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -945,13 +942,6 @@
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#358#385#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -990,9 +980,7 @@
           <folding>
             <element signature="docComment;class#Dealer#0" expanded="false" />
             <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <marker date="1492654051614" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
+            <marker date="1492671959141" expanded="false" signature="1699:1707" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1003,7 +991,7 @@
           <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#556#564#0" expanded="true" />
+            <element signature="e#708#716#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1014,13 +1002,6 @@
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#358#385#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1059,13 +1040,6 @@
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#358#385#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1076,7 +1050,7 @@
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#556#564#0" expanded="true" />
+            <element signature="e#708#716#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1088,9 +1062,7 @@
           <folding>
             <element signature="docComment;class#Dealer#0" expanded="false" />
             <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <marker date="1492654051614" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
+            <marker date="1492671959141" expanded="false" signature="1699:1707" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1125,7 +1097,7 @@
           <caret line="11" column="55" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="11" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#556#564#0" expanded="true" />
+            <element signature="e#708#716#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1137,9 +1109,7 @@
           <folding>
             <element signature="docComment;class#Dealer#0" expanded="false" />
             <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <marker date="1492654051614" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
+            <marker date="1492671959141" expanded="false" signature="1699:1707" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1154,9 +1124,7 @@
           <folding>
             <element signature="docComment;class#Dealer#0" expanded="false" />
             <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <marker date="1492654051614" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
+            <marker date="1492671959141" expanded="false" signature="1699:1707" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1171,9 +1139,7 @@
           <folding>
             <element signature="docComment;class#Dealer#0" expanded="false" />
             <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <marker date="1492654051614" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
+            <marker date="1492671959141" expanded="false" signature="1699:1707" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1213,7 +1179,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tools/Pair.java">
+    <entry file="file://$PROJECT_DIR$/src/tools/Share.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
@@ -1221,56 +1187,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="394.38324175824175" y="403.5">tools.Dealer</node>
-            <node x="287.39285714285717" y="716.0">TSS.TSS</node>
-            <node x="211.88324175824178" y="0.5">tools.Pair</node>
-            <node x="490.29725274725274" y="157.0">math.Polynomial</node>
-            <node x="0.0" y="190.0">math.Lagrange</node>
-            <node x="38.38324175824175" y="392.0">tools.Player</node>
-            <node x="520.7972527472527" y="0.0">tools.CryptoSecureRandom</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="398.0" y="367.0" />
-          <SelectedNodes>
-            <node>tools.Dealer</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Inner Classes</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/math/Lagrange.java">
+    <entry file="file://$PROJECT_DIR$/src/math/Polynomial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tools/Dealer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding>
-            <element signature="docComment;class#Dealer#0" expanded="false" />
-            <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <marker date="1492654051614" expanded="false" signature="1697:1705" ph="&lt;~&gt;" />
+            <element signature="docComment;class#Polynomial#0" expanded="false" />
+            <element signature="method#main#0;class#Polynomial#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1283,42 +1206,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/math/Polynomial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Polynomial#0" expanded="false" />
-            <element signature="method#main#0;class#Polynomial#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tools/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="47" column="107" lean-forward="false" selection-start-line="47" selection-start-column="107" selection-end-line="47" selection-end-column="107" />
+        <state relative-caret-position="557">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#358#385#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TSS/TSS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        <state relative-caret-position="523">
+          <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#556#564#0" expanded="true" />
+            <element signature="e#708#716#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tools/Dealer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#Dealer#0" expanded="false" />
+            <element signature="docComment;method#Dealer#0;class#Dealer#0" expanded="false" />
+            <marker date="1492671959141" expanded="false" signature="1699:1707" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="3.0" y="500.0">tools.Dealer</node>
+            <node x="97.51306413301666" y="349.0047505938242">TSS.TSS</node>
+            <node x="3.6995249406174935" y="828.8361045130641">math.Polynomial</node>
+            <node x="753.4893111638955" y="566.4964370546318">math.Lagrange</node>
+            <node x="395.10213776722094" y="236.97862232779096">tools.Player</node>
+            <node x="435.81947743467936" y="874.5546318289786">tools.CryptoSecureRandom</node>
+            <node x="502.6152019002375" y="581.5890736342042">tools.Share</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="tools.Player" target="tools.Share">
+              <point x="-10.170237914820206" y="0.0" />
+              <point x="-10.170237914820234" y="0.0" />
+            </edge>
+            <edge source="TSS.TSS" target="tools.Dealer">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="tools.Dealer" target="math.Polynomial">
+              <point x="-5.000003810393309" y="0.0" />
+              <point x="-5.0000038103933235" y="0.0" />
+            </edge>
+            <edge source="TSS.TSS" target="tools.Player">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="tools.Player" target="math.Lagrange">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="tools.Dealer" target="tools.Share">
+              <point x="0.0" y="11.790119372001449" />
+              <point x="0.0" y="11.790119372001442" />
+            </edge>
+            <edge source="math.Lagrange" target="tools.Share">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="math.Polynomial" target="tools.CryptoSecureRandom">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-116.0" y="455.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/Lagrange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

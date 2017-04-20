@@ -1,6 +1,6 @@
 package math;
 
-import tools.Pair;
+import tools.Share;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -16,7 +16,7 @@ public class Lagrange {
         prime = p;
     }
 
-    public BigInteger interpolate(ArrayList<Pair<Integer, BigInteger>> shares){
+    public BigInteger interpolate(ArrayList<Share<Integer, BigInteger>> shares){
         int n = shares.size();
         BigDecimal numerator, denominator;
         BigInteger secret = BigInteger.ZERO;
@@ -52,10 +52,10 @@ public class Lagrange {
     //Testing the Lagrange
     public static void main(String[] args)
     {
-        ArrayList<Pair<Integer, BigInteger>> shares = new ArrayList<Pair<Integer, BigInteger>>();
-        shares.add(new Pair<>(2, BigInteger.valueOf(10)));
-        shares.add(new Pair<>(3, BigInteger.valueOf(8)));
-        shares.add(new Pair<>(4, BigInteger.valueOf(9)));
+        ArrayList<Share<Integer, BigInteger>> shares = new ArrayList<Share<Integer, BigInteger>>();
+        shares.add(new Share<>(2, BigInteger.valueOf(10)));
+        shares.add(new Share<>(3, BigInteger.valueOf(8)));
+        shares.add(new Share<>(4, BigInteger.valueOf(9)));
 
         Lagrange l = new Lagrange(BigInteger.TEN);
         BigInteger sec = l.interpolate(shares);
