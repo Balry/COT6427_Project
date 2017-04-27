@@ -11,9 +11,9 @@ import java.util.ArrayList;
 public class Dealer {
     public BigInteger primeQ;
     public int threshold;
-    public BigInteger secret; //TODO remove this after testing!
+    public BigInteger secret; //TODO remove this after Demo!
     public Polynomial poly;
-    public ArrayList<Share<Integer, BigInteger>> shares = new ArrayList<Share<Integer, BigInteger>>();//TODO CHANGE TO PRIVATE AFTER TESTING
+    public ArrayList<Share<Integer, BigInteger>> shares = new ArrayList<Share<Integer, BigInteger>>();//TODO CHANGE TO PRIVATE AFTER DEMO
 
     /**
      * @precondition    n >= t

@@ -42,8 +42,6 @@ public class Lagrange {
                 BigInteger inverse = denominator.toBigInteger().modInverse(prime);
                 BigInteger div = numerator.toBigInteger().multiply(inverse);
                 secret = secret.add(div.multiply(shares.get(count).y)).mod(prime);
-                //BigDecimal div = numerator.divide(denominator, 10, RoundingMode.HALF_UP);
-                //secret = secret.add(div.toBigInteger().multiply(shares.get(count).y)).mod(prime);
             }
         }
         return secret;

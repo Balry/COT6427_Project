@@ -14,14 +14,30 @@ public class Polynomial {
     private int deg;            // degree of polynomial (0 for the zero polynomial)
     private BigInteger qPrime;  // coefficient upper bound prime number
 
+    // New Polynomial with random secret
     public Polynomial(int t, BigInteger prime){
         deg = t-1;
         qPrime = prime;
         this.generateRandomPoly();
     }
 
+    // New Polynomial with specified secret
+    public Polynomial(int t, BigInteger prime, BigInteger secret){
+        deg = t-1;
+        qPrime = prime;
+        this.generateRandomPoly(secret);
+    }
+
     // Generates random coefficients of the polynomial
     private void generateRandomPoly(){
+        CryptoSecureRandom randomEngine = new CryptoSecureRandom();
+        for(int i=0; i<=deg; i++) //create random coefficients such that 0<= coef < prime
+            coef.add(randomEngine.nextBigInteger(BigInteger.ZERO, qPrime));
+    }
+
+    // Generates random coefficients of the polynomial, but allows the secret to be defined (used for PSS where g(0)=0)
+    private void generateRandomPoly(BigInteger secret){
+        coef.add(secret);
         CryptoSecureRandom randomEngine = new CryptoSecureRandom();
         for(int i=0; i<=deg; i++) //create random coefficients such that 0<= coef < prime
             coef.add(randomEngine.nextBigInteger(BigInteger.ZERO, qPrime));
@@ -50,5 +66,8 @@ public class Polynomial {
         //Polynomial polyTest = new Polynomial(3, new BigInteger("13"));
         Polynomial polyTest = new Polynomial(3, new BigInteger(128, 10, new SecureRandom()));
         System.out.println(polyTest.evaluate(new BigInteger("0")));
+
+        Polynomial polyTestOtherConstructor = new Polynomial(3, new BigInteger(128, 10, new SecureRandom()), BigInteger.ZERO);
+        System.out.println(polyTestOtherConstructor.evaluate(new BigInteger("0")));
     }
 }

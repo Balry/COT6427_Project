@@ -1,6 +1,7 @@
 package tools;
 
 import math.Lagrange;
+import math.Polynomial;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -13,6 +14,8 @@ public class Player {
     private BigInteger myShare, prime;
     public BigInteger secret;
     private ArrayList<Share<Integer, BigInteger>> gatheredShares = new ArrayList<Share<Integer, BigInteger>>();
+    private ArrayList<Share<Integer, BigInteger>> auxiliaryShares = new ArrayList<Share<Integer, BigInteger>>();
+    private Polynomial pssPoly;
 
     public Player(int i, int t, BigInteger p){
         id = i;
@@ -34,7 +37,11 @@ public class Player {
     }
 
     private void getOtherShares(Share<Integer, BigInteger> s){
-        gatheredShares.add(s);
+        //if(gatheredShares.indexOf(s) == -1)
+        if(!gatheredShares.contains(s))
+            gatheredShares.add(s);
+       else
+            System.out.println("Player" + this.id + " already has Player" + s.x + " share");
     }
 
     public void recoverSecret(){
@@ -47,4 +54,26 @@ public class Player {
             System.out.println("\nPlayer" + id + " does not have enough shares to recover the secret. It needs " +
                     (threshold - gatheredShares.size()) + " more shares to be able to recover the secret.\n");
     }
+
+    //PSS related
+    public void generateZeroConstantPolynomial(){
+        pssPoly = new Polynomial(threshold, prime, BigInteger.ZERO);
+    }
+
+    public void makeAuxiliaryShares(){
+        //auxiliaryShares
+    }
+
+    public void sendAuxShare(Player otherPlayer){
+        otherPlayer.getOtherAuxShares(new Share<>(id, myShare));
+    }
+
+    private void getOtherAuxShares(Share<Integer, BigInteger> s){
+        //if(gatheredShares.indexOf(s) == -1)
+        if(!gatheredShares.contains(s))
+            gatheredShares.add(s);
+        else
+            System.out.println("Player" + this.id + " already has Player" + s.x + " share");
+    }
+
 }
