@@ -10,7 +10,7 @@ import java.util.ArrayList;
  * Created by "Balry" - Michael Perez on 4/12/2017.
  */
 public class Lagrange {
-    BigInteger prime;
+    private BigInteger prime;
 
     public Lagrange(BigInteger p){
         prime = p;
@@ -27,6 +27,7 @@ public class Lagrange {
             numerator = BigDecimal.ONE;//BigInteger.valueOf(shares.get(count).x);
             denominator = BigDecimal.ONE;
 
+            //TODO Simplify the equations?
             for (int count2 = 0; count2 < n; count2++) {
                 // /if (count2 != count) {
                 if(shares.get(count2).x != shares.get(count).x){
@@ -50,7 +51,7 @@ public class Lagrange {
     //Testing the Lagrange
     public static void main(String[] args)
     {
-        ArrayList<Share<Integer, BigInteger>> shares = new ArrayList<Share<Integer, BigInteger>>();
+        /*ArrayList<Share<Integer, BigInteger>> shares = new ArrayList<Share<Integer, BigInteger>>();
         shares.add(new Share<>(2, BigInteger.valueOf(10)));
         shares.add(new Share<>(3, BigInteger.valueOf(8)));
         shares.add(new Share<>(4, BigInteger.valueOf(9)));
@@ -58,6 +59,6 @@ public class Lagrange {
         Lagrange l = new Lagrange(BigInteger.TEN);
         BigInteger sec = l.interpolate(shares);
 
-        System.out.println("Secret is: " + sec);
+        System.out.println("Secret is: " + sec);*/
     }
 }

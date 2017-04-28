@@ -2,6 +2,7 @@ package protocols;
 
 import tools.Dealer;
 import tools.Player;
+import tools.Share;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -15,9 +16,6 @@ public class TSS {
         int nPlayers = 11;
         int threshold = 5;   // >500 takes too long for prezi
         BigInteger prime = new BigInteger("13");
-//        BigInteger prime = new BigInteger("31");
-//        BigInteger prime = new BigInteger("229");
-//        BigInteger prime = new BigInteger("349");
 //        BigInteger prime = new BigInteger(128,50, new SecureRandom());
 
         //Create list of Players and gives them increasing id numbers
@@ -27,13 +25,10 @@ public class TSS {
 
         //Create Dealer and print out each player's shares
         Dealer dealer = new Dealer(threshold, players, prime);
-        dealer.poly.showPoly();
-        for (int i = 0; i < dealer.shares.size(); i++)
-            System.out.println("P" + dealer.shares.get(i).x + " has share = " + dealer.shares.get(i).y);
 
         //Dealer Distributes shares to other players
         for (Player i : players)
-            i.setMyShare(dealer.distributeShare(i));
+            i.setMyShare(dealer.distributeShares(i));
 
         // Group of Players out of order send shares to Player3
 /*        players.get(0).sendMyShare(players.get(2));
@@ -52,10 +47,15 @@ public class TSS {
         players.get(40).sendMyShare(players.get(2));
         players.get(34).sendMyShare(players.get(2));*/
 
-        //This repeats Player3
-        for(int i = 0; i <=threshold+1; i++){
+        //Send enough shares to recover secret
+        for(int i = 0; i < threshold; i++){
             players.get(i).sendMyShare(players.get(2));
         }
+
+        System.out.println("Player" + players.get(2).getId() + " has the following shares:");
+        for(Share<Integer, BigInteger> i : players.get(2).gatheredShares)
+            System.out.print("(" + i.x + ", " + i.y + ") ");
+        System.out.println();
 
         //Player 2 attempts to recover the secret
         players.get(2).recoverSecret();
